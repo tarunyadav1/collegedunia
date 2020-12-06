@@ -40,6 +40,7 @@ function CollegeList() {
           <CollegeCard college={college} />
         ))}
       </div>
+      {loading && <div className="loading"></div>}
     </div>
   );
 }
